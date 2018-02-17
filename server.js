@@ -9,8 +9,17 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+
+app.get('artical-0ne', function (req, res) {
+  res.send('artical-one will be served');
+});
+
+app.get('artical-two', function (req, res) {
+  res.send('artical-one will be served');
+});
+
+app.get('artical-three', function (req, res) {
+  res.send('artical-one will be served');
 });
 
 app.get('/ui/madi.png', function (req, res) {
