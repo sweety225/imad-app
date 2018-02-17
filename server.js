@@ -10,16 +10,16 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('artical-one', function (req, res) {
-  res.send('artical-one will be served');
+app.get('article-one', function (req, res) {
+  res.send('article-one will be served');
 });
 
-app.get('artical-two', function (req, res) {
-  res.send('artical-one will be served');
+app.get('article-two', function (req, res) {
+  res.send('article-one will be served');
 });
 
-app.get('artical-three', function (req, res) {
-  res.send('artical-one will be served');
+app.get('article-three', function (req, res) {
+  res.send('article one will be served');
 });
 
 app.get('/ui/madi.png', function (req, res) {
