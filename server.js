@@ -11,15 +11,15 @@ app.get('/', function (req, res) {
 
 
 app.get('article-one', function (req, res) {
-  res.send('article-one will be served');
+  res.sendF('article-one will be served');
 });
 
 app.get('article-two', function (req, res) {
-  res.send('article-one will be served');
+  res.sendF('article-one will be served');
 });
 
 app.get('article-three', function (req, res) {
-  res.send('article one will be served');
+  res.sendF('article one will be served');
 });
 
 app.get('/ui/madi.png', function (req, res) {
